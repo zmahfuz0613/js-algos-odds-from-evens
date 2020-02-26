@@ -17,6 +17,26 @@ test("return an array where even numbers come first in ascending order and odd n
     3,
     1
   ])
+  expect(algos.oddsFromEvens([10, 9, 8, 7, 6, 5, 4, 3, 2, 1])).toMatchObject([
+    2,
+    4,
+    6,
+    8,
+    10,
+    9,
+    7,
+    5,
+    3,
+    1
+  ])
+  expect(algos.oddsFromEvens([423, 322, 918, 45, 6, 79, 55])).toMatchObject([
+    6,
+    322,
+    918,
+    423,
+    79,
+    55,
+    45
+  ])
 })
 
-  

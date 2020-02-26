@@ -26,7 +26,7 @@ const oddsFromEvens = (str) => {
   return even.concat(odd)
 }
 
-console.log(oddsFromEvens([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]))
+console.log(oddsFromEvens([423, 322, 918, 45, 6, 79, 55]))
 
 module.exports = {
   oddsFromEvens
